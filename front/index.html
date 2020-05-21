@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+
+<body>
+    <div class="formDiv">
+        <p id="error-message"></p>
+        <form id="form" class="form">
+            <input type="text" placeholder="Task Name" id="task">&nbsp;<br>
+            <label id="label" for="done">Done</label>
+            <select id="done">
+                <option value="false" selected>False</option>
+                <option value="true">True</option>
+            </select>
+            <input type="submit" value="ADD ToDO" id="add">&nbsp;
+            <input type="submit" value="Clear TODO" id="clear">
+        </form>
+    </div>
+    <p id="test"></p>
+    <div class="todolist" id="todolist">
+        <ul id="list">
+
+        </ul>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
